@@ -1,0 +1,48 @@
+@font-face {
+    font-family: Roboto;
+    src: url(./fonts/Roboto-Bold.ttf);
+}
+body {
+    background-color: #C4C4C4;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+}
+div {
+    background-color: #FC8F8F;
+}
+.first_block, .second_block, .third_block {
+    background-color: #E6E6E6;
+    width: 1000px;
+    margin: 50px auto;
+}
+.first_block>div, .second_block>div, .third_block>div {
+    width: 200px;
+    height: 200px;
+}
+div.small {
+    font-size: 36px;
+    line-height: 42px;
+    width: 100px;
+    height: 100px;
+}
+.bloks {
+    float: left;
+}
+.first_block_two {
+    float: right;
+}
+.second_block_two {
+    margin: 0px 15px 0px 355px;
+}
+.second_block_four {
+    margin: 0px 15px;
+}
+.third_block_two {
+    margin: 0px 170px 0px 15px;
+}
+.third_block_three {
+    margin-right: 15px;
+}
