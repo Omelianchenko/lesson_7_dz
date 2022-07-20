@@ -31,18 +31,18 @@ div.small {
 .bloks {
     float: left;
 }
-.first_block_two {
+.bloks_right {
     float: right;
 }
-.second_block_two {
-    margin: 0px 15px 0px 355px;
+.second_block_three {
+    margin-left: 15px;
 }
 .second_block_four {
     margin: 0px 15px;
 }
 .third_block_two {
-    margin: 0px 170px 0px 15px;
+    margin-left: 15px;
 }
-.third_block_three {
-    margin-right: 15px;
+.third_block_four {
+    margin-left: 15px;
 }
