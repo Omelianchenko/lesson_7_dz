@@ -13,12 +13,16 @@ body {
 div {
     background-color: #FC8F8F;
 }
-.first_block, .second_block, .third_block {
+.main_block {
     background-color: #E6E6E6;
-    width: 1000px;
     margin: 50px auto;
 }
-.first_block>div, .second_block>div, .third_block>div {
+.main_block::after {
+    content: "" ;
+    display:block;
+    clear: both;
+}
+.main_block>div {
     width: 200px;
     height: 200px;
 }
@@ -30,19 +34,9 @@ div.small {
 }
 .bloks {
     float: left;
+    margin-right: 15px;
 }
 .bloks_right {
     float: right;
-}
-.second_block_three {
-    margin-left: 15px;
-}
-.second_block_four {
-    margin: 0px 15px;
-}
-.third_block_two {
-    margin-left: 15px;
-}
-.third_block_four {
     margin-left: 15px;
 }
